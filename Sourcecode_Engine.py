@@ -8,7 +8,7 @@ root.title('My Image to Text')
 root.geometry("900x600")
 def file_open():
     global my_image, image_path
-    root.filename = filedialog.askopenfilename(initialdir="D:\DO_AN_THUC_HANH\OCR_CASE_TEST", title= "Select a file", filetypes =(("png files", "*.png"),("*.jpg", "jpg files"),("all files"))) 
+    root.filename = filedialog.askopenfilename(initialdir="D:/", title= "Select a file", filetypes =(("png files", "*.png"),("*.jpg", "jpg files"),("all files"))) 
     image_path = root.filename
     my_image = ImageTk.PhotoImage(Image.open(root.filename))
     my_image_label = Label(image=my_image).pack()
