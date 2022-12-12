@@ -1,0 +1,4 @@
+paddleocr>=2.0.1
+paddle
+pillow
+yake

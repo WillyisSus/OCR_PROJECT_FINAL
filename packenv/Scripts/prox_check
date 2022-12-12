@@ -1,0 +1,5 @@
+#!D:\OCR_PROJECT_FINAL\packenv\Scripts\python.exe
+from prox.prox_check import main
+
+if __name__ == '__main__':
+    main()
