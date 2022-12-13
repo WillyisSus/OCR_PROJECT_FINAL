@@ -16,7 +16,6 @@ def file_open():
     image_path = root.filename
     my_image = ImageTk.PhotoImage(Image.open(root.filename))
     my_image_label = Label(image=my_image).pack()
-    isPhoto = True
 def instruction():
     instruction = ("Note: If there is no need, hit X button to exit program \n Step 1. Click Open File to choose Image \n Step 2. Click Start process for word extraction and search") 
     messagebox.showinfo("How to use", instruction)

@@ -1,1 +1,1 @@
-start https://www.google.com/search?q=STARBUCKS+COFFEE
+start https://www.google.com/search?q=https://vanripper.itch.io/artbook
